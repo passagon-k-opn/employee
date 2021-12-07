@@ -5,9 +5,11 @@ import (
 	"employee/model"
 	"github.com/gin-gonic/gin"
 	"net/http"
+
 )
 
 func CreateEmployee(c *gin.Context)  {
+
 	service := handler.Handler{}
 	 input := &model.CreateRequest{}
 	if err := c.ShouldBindJSON(&input); err != nil {

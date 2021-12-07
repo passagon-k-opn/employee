@@ -5,6 +5,7 @@ go 1.17
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/gin-gonic/gin v1.7.7
+	github.com/sirupsen/logrus v1.4.2
 	github.com/smartystreets/goconvey v1.7.2
 	gorm.io/driver/postgres v1.2.3
 	gorm.io/gorm v1.22.4
@@ -29,6 +30,7 @@ require (
 	github.com/jinzhu/now v1.1.3 // indirect
 	github.com/json-iterator/go v1.1.9 // indirect
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
+	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
 	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 // indirect
